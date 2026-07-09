@@ -16,17 +16,17 @@ const VALUES = [
   {
     n: "02",
     title: "Tydliga offerter",
-    body: "Du vet vad som ingår och vad det kostar innan vi sätter spaden i jorden.",
+    body: "Du vet vad som ingår och vad det kostar innan vi kör igång.",
   },
   {
     n: "03",
     title: "Kvalitet i varje skarv",
-    body: "Vi tar oss tid att göra rätt, från grundarbete till sista finish.",
+    body: "Högst kvalitet i alla delar från första kontakt till färdigt projekt är A och O.",
   },
   {
     n: "04",
     title: "Lokal förankring",
-    body: "Vi bor och verkar i Lönsboda och känner trakten, villkoren och folket här.",
+    body: "Vi verkar i Lönsboda och närområdet och värnar om de relationer vi skapar med våra kunder.",
   },
 ];
 
