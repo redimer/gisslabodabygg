@@ -41,10 +41,10 @@ export default function Hero() {
             Se våra projekt
           </a>
           <a
-            href="/#kontakt"
+            href="/kontakt"
             className="rounded-full border border-white/40 hover:border-white/80 text-white px-7 py-3.5 font-semibold transition-colors"
           >
-            Kontakta oss
+            Få en offert
           </a>
         </div>
       </div>

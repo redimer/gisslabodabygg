@@ -70,7 +70,7 @@ export default function Header({ transparent = false }) {
             </Link>
           ))}
           <Link
-            href="/#kontakt"
+            href="/kontakt"
             className="rounded-full bg-rust-500 hover:bg-rust-600 text-cream px-5 py-2.5 text-[15px] font-semibold transition-colors"
           >
             Få en offert
@@ -109,7 +109,7 @@ export default function Header({ transparent = false }) {
             </Link>
           ))}
           <Link
-            href="/#kontakt"
+            href="/kontakt"
             onClick={() => setOpen(false)}
             className="rounded-full bg-rust-500 text-cream px-5 py-3 text-center font-semibold"
           >

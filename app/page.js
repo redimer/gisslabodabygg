@@ -61,7 +61,7 @@ export default function Home() {
                 detaljerna.
               </p>
               <Link
-                href="/#kontakt"
+                href="/kontakt"
                 className="inline-flex mt-9 items-center gap-2 rounded-full border border-ink/20 hover:border-forest-700 hover:bg-forest-700 hover:text-cream px-6 py-3.5 font-semibold transition-colors"
               >
                 Prata med oss om ditt projekt

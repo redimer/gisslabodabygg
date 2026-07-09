@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -43,6 +44,11 @@ export default function Footer() {
               Södra Gränsgatan 45
               <br />
               Lönsboda, Sverige
+            </li>
+            <li>
+              <Link href="/kontakt" className="hover:text-rust-400 transition-colors">
+                Fyll i offertformulär →
+              </Link>
             </li>
             <li>
               <a

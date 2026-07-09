@@ -19,6 +19,21 @@ npm run dev
 - **Kontaktuppgifter**: `components/Footer.js`.
 - **Facebook-flöde**: `components/FacebookFeed.js` — pekar mot Facebook-sidan via dess URL.
 
+## Offertformuläret (/kontakt)
+
+Formuläret på `/kontakt` skickar e-post via [Resend](https://resend.com) till
+`gisslabodabygg@gmail.com`. För att det ska fungera i produktion:
+
+1. Skapa ett gratis konto på [resend.com](https://resend.com).
+2. Skapa en API-nyckel under **API Keys**.
+3. Lägg till den i Vercel: projektets **Settings → Environment Variables**,
+   lägg till `RESEND_API_KEY` med nyckeln som värde, spara och gör en ny
+   driftsättning (redeploy).
+
+Lokalt: kopiera `.env.local.example` till `.env.local` och fyll i nyckeln.
+Utan nyckel visar formuläret ett tydligt felmeddelande istället för att
+skicka mejlet.
+
 ## Bygga för produktion
 
 ```bash
