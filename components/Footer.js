@@ -84,7 +84,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 md:px-10 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-cream/50">
           <p>© {new Date().getFullYear()} Gisslaboda Bygg AB. Alla rättigheter förbehållna.</p>
-          <p>Org. Lönsboda, Sverige</p>
+          <p>Orgnr: 559571-0293</p>
         </div>
       </div>
     </footer>
