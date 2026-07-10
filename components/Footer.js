@@ -6,19 +6,14 @@ export default function Footer() {
     <footer id="kontakt" className="relative bg-forest-900 text-cream grain">
       <div className="mx-auto max-w-7xl px-6 md:px-10 py-20 grid gap-14 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
-          <div className="flex items-center gap-3 mb-6">
-            <span className="relative h-12 w-12 rounded-full overflow-hidden ring-1 ring-white/20">
-              <Image
-                src="/images/logo.jpg"
-                alt="Gisslaboda Bygg AB"
-                fill
-                sizes="48px"
-                className="object-cover"
-              />
-            </span>
-            <span className="font-display text-xl font-semibold">
-              Gisslaboda Bygg AB
-            </span>
+          <div className="mb-6">
+            <Image
+              src="/images/logo-wide.png"
+              alt="Gisslaboda Bygg AB"
+              width={900}
+              height={252}
+              className="h-14 w-auto brightness-0 invert opacity-90"
+            />
           </div>
           <p className="text-cream/70 max-w-sm leading-relaxed">
             Snickeri &amp; byggtjänster i Lönsboda med omnejd. Nybyggnation,

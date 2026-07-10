@@ -34,27 +34,17 @@ export default function Header({ transparent = false }) {
       }`}
     >
       <div className="mx-auto max-w-7xl px-6 md:px-10 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3 group">
-          <span
-            className={`relative h-11 w-11 rounded-full overflow-hidden ring-1 transition-colors ${
-              solid ? "ring-ink/15" : "ring-white/40"
+        <Link href="/" aria-label="Gisslaboda Bygg AB – startsida" className="group">
+          <Image
+            src="/images/logo-wide.png"
+            alt="Gisslaboda Bygg AB"
+            width={900}
+            height={252}
+            priority
+            className={`h-11 md:h-12 w-auto transition-[filter] duration-500 ${
+              solid ? "" : "brightness-0 invert"
             }`}
-          >
-            <Image
-              src="/images/logo.jpg"
-              alt="Gisslaboda Bygg AB"
-              fill
-              sizes="44px"
-              className="object-cover"
-            />
-          </span>
-          <span
-            className={`font-display font-semibold text-lg tracking-tight transition-colors ${
-              solid ? "text-ink" : "text-white"
-            }`}
-          >
-            Gisslaboda Bygg
-          </span>
+          />
         </Link>
 
         <nav className="hidden md:flex items-center gap-9">
