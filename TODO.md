@@ -14,3 +14,14 @@ koppla på faktisk e-postutskick:
       bekräfta att mejlet kommer fram till gisslabodabygg@gmail.com
 
 Se `README.md` för fler detaljer om detta steg.
+
+## Byt ut platshållar-citaten mot riktiga kundomdömen
+
+Citat-karusellen på startsidan och citaten på projektsidorna använder
+**påhittade exempeltexter** tills vidare (markerade med en kommentar i
+`data/projects.js`).
+
+- [ ] Samla in riktiga omdömen från kunderna bakom projekten
+- [ ] Byt ut `quote.text` och `quote.author` per projekt i
+      `data/projects.js` (fråga kunden om ni får använda namn/ort)
+- [ ] Sätt `quote: null` på projekt som inte ska visa något citat

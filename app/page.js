@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import FacebookFeed from "@/components/FacebookFeed";
 import ProjectCard from "@/components/ProjectCard";
+import QuoteCarousel from "@/components/QuoteCarousel";
 import { projects } from "@/data/projects";
 
 const VALUES = [
@@ -145,6 +146,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <QuoteCarousel items={projects.filter((p) => p.quote)} />
 
         <FacebookFeed />
       </main>
