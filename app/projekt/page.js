@@ -32,7 +32,7 @@ export default function ProjektPage() {
         <section className="py-20 px-6 md:px-10">
           <div className="mx-auto max-w-7xl grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((p, i) => (
-              <ProjectCard key={p.slug} project={p} tilt={i % 2 === 1} priority={i < 2} />
+              <ProjectCard key={p.slug} project={p} tilt={i % 2 === 1} priority={i < 2} showSummary />
             ))}
           </div>
         </section>

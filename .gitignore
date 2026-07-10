@@ -44,3 +44,6 @@ next-env.d.ts
 # raw source assets (curated copies live in /public)
 /images
 /video
+
+# internal account/access documentation — not for the public repo
+/ONBOARDING.md

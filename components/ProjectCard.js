@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ProjectCard({ project, tilt = false, priority = false }) {
+export default function ProjectCard({ project, tilt = false, priority = false, showSummary = false }) {
   return (
     <Link
       href={`/projekt/${project.slug}`}
@@ -30,6 +30,11 @@ export default function ProjectCard({ project, tilt = false, priority = false })
               →
             </span>
           </p>
+          {showSummary && (
+            <p className="mt-2 text-white/70 text-sm leading-snug line-clamp-2">
+              {project.summary}
+            </p>
+          )}
         </div>
       </div>
     </Link>
