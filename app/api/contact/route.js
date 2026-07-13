@@ -58,7 +58,7 @@ export async function POST(request) {
   };
 
   const autoReply = {
-    from: "Gisslaboda Bygg AB <formular@gisslabodabyggab.se>",
+    from: "Gisslaboda Bygg AB <info@gisslabodabyggab.se>",
     to: email,
     subject: "Tack för din förfrågan – Gisslaboda Bygg AB",
     text: [
