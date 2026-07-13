@@ -7,10 +7,13 @@ info@gisslabodabyggab.se, `RESEND_API_KEY` ligger i Vercel (projektet
 **gisslabodabygg**), och mejl går till info@gisslabodabyggab.se som
 vidarebefordras till gisslabodabygg@gmail.com.
 
-- [ ] (Valfri uppgradering) Verifiera domänen gisslabodabyggab.se i
-      Resend (DNS-poster hos one.com) så att formulärmejlen skickas från
-      egen adress istället för onboarding@resend.dev — bättre mot
-      spamfilter.
+- [x] DNS-poster för Resend-verifiering tillagda hos one.com (2026-07-13,
+      propagerade och bekräftade). Väntar på att Resend ska flippa till
+      "Verified" — koden byter då automatiskt till att skicka från
+      formular@gisslabodabyggab.se (med replyTo till kunden och autosvar),
+      ingen åtgärd behövs.
+- [ ] Bekräfta i Resend-dashboarden att domänen blivit "Verified" och att
+      formulärmejl därefter kommer från formular@gisslabodabyggab.se
 
 ## Städa: två Vercel-projekt deployar samma repo
 
