@@ -1,19 +1,26 @@
 # Att göra
 
-## Koppla på offertformuläret (/kontakt)
+## ✅ Offertformuläret (/kontakt) — KLART 2026-07-13
 
-Formuläret och API-routen är klara och pushade. Det som återstår är att
-koppla på faktisk e-postutskick:
+Formuläret är kopplat och fungerar live. Resend-kontot är registrerat på
+info@gisslabodabyggab.se, `RESEND_API_KEY` ligger i Vercel (projektet
+**gisslabodabygg**), och mejl går till info@gisslabodabyggab.se som
+vidarebefordras till gisslabodabygg@gmail.com.
 
-- [ ] Skapa ett gratis konto på [resend.com](https://resend.com)
-- [ ] Skapa en API-nyckel under **API Keys**
-- [ ] Lägg till `RESEND_API_KEY` i Vercel (**Settings → Environment
-      Variables**) med nyckeln som värde
-- [ ] Redeploya projektet i Vercel så att miljövariabeln börjar gälla
-- [ ] Skicka ett test via formuläret på den publicerade sajten och
-      bekräfta att mejlet kommer fram till gisslabodabygg@gmail.com
+- [ ] (Valfri uppgradering) Verifiera domänen gisslabodabyggab.se i
+      Resend (DNS-poster hos one.com) så att formulärmejlen skickas från
+      egen adress istället för onboarding@resend.dev — bättre mot
+      spamfilter.
 
-Se `README.md` för fler detaljer om detta steg.
+## Städa: två Vercel-projekt deployar samma repo
+
+Det finns två projekt i Vercel-teamet "my-flight" som båda bygger från
+samma GitHub-repo: **gisslabodabygg** (har domänen — detta är "riktiga"
+projektet) och **gislabodabygg** (ett stavfel-dubblettprojekt, bara
+*.vercel.app). Båda har `RESEND_API_KEY` satt.
+
+- [ ] Ta bort dubblettprojektet **gislabodabygg** (enkelt s) i Vercels
+      dashboard när det känns tryggt — annars byggs varje push två gånger
 
 ## Byt ut platshållar-citaten mot riktiga kundomdömen
 
