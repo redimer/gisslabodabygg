@@ -5,6 +5,7 @@ import { useState } from "react";
 const NAME_PHONE_FIELDS = [
   { id: "name", label: "Namn", type: "text", autoComplete: "name" },
   { id: "phone", label: "Telefonnummer", type: "tel", autoComplete: "tel" },
+  { id: "email", label: "E-post", type: "email", autoComplete: "email" },
 ];
 
 export default function ContactForm() {
@@ -20,6 +21,7 @@ export default function ContactForm() {
     const data = {
       name: form.name.value,
       phone: form.phone.value,
+      email: form.email.value,
       address: form.address.value,
       message: form.message.value,
     };
@@ -61,7 +63,7 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
-      <div className="grid sm:grid-cols-2 gap-6">
+      <div className="grid sm:grid-cols-3 gap-6">
         {NAME_PHONE_FIELDS.map((f) => (
           <div key={f.id}>
             <label htmlFor={f.id} className="block text-sm font-semibold mb-2">
