@@ -25,10 +25,10 @@ export default function KontaktPage() {
               Fyll i formuläret nedan så återkommer vi så snart vi kan. Du kan
               också mejla oss direkt på{" "}
               <a
-                href="mailto:gisslabodabygg@gmail.com"
+                href="mailto:info@gisslabodabyggab.se"
                 className="underline hover:text-rust-400"
               >
-                gisslabodabygg@gmail.com
+                info@gisslabodabyggab.se
               </a>
               .
             </p>

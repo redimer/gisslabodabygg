@@ -18,7 +18,7 @@ export const metadata = {
   title: "Gisslaboda Bygg AB – Snickeri & byggtjänster i Lönsboda",
   description:
     "Gisslaboda Bygg AB utför nybyggnation, tillbyggnad, renovering och attefallshus i Lönsboda med omnejd. Hantverk du kan lita på.",
-  metadataBase: new URL("https://gisslabodabygg.se"),
+  metadataBase: new URL("https://gisslabodabyggab.se"),
   openGraph: {
     title: "Gisslaboda Bygg AB",
     description:

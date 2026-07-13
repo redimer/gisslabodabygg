@@ -29,10 +29,10 @@ export default function Footer() {
           <ul className="space-y-3 text-cream/85">
             <li>
               <a
-                href="mailto:gisslabodabygg@gmail.com"
+                href="mailto:info@gisslabodabyggab.se"
                 className="hover:text-rust-400 transition-colors"
               >
-                gisslabodabygg@gmail.com
+                info@gisslabodabyggab.se
               </a>
             </li>
             <li className="text-cream/70">
