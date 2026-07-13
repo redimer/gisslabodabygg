@@ -1,6 +1,9 @@
 import { Resend } from "resend";
 
-const TO_EMAIL = "gisslabodabygg@gmail.com";
+// Resend's free-tier test sender may only deliver to the Resend account
+// owner's address (info@...). Mail to info@ is forwarded to
+// gisslabodabygg@gmail.com by one.com, where the owners read it.
+const TO_EMAIL = "info@gisslabodabyggab.se";
 
 export async function POST(request) {
   let body;
