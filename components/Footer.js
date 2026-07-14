@@ -35,6 +35,16 @@ export default function Footer() {
                 info@gisslabodabyggab.se
               </a>
             </li>
+            <li>
+              <a href="tel:+46700722377" className="hover:text-rust-400 transition-colors">
+                Fredrik: 070-072 23 77
+              </a>
+            </li>
+            <li>
+              <a href="tel:+46700722378" className="hover:text-rust-400 transition-colors">
+                Johannes: 070-072 23 78
+              </a>
+            </li>
             <li className="text-cream/70">
               Södra Gränsgatan 45
               <br />
