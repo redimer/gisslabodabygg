@@ -69,8 +69,8 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="relative h-[420px] md:h-[500px]">
-              <div className="absolute top-0 right-4 w-[72%] h-[78%] rounded-2xl overflow-hidden ring-1 ring-ink/10 shadow-xl rotate-[2deg]">
+            <div className="relative h-[460px] md:h-[560px]">
+              <div className="absolute top-0 right-4 w-[70%] h-[64%] rounded-2xl overflow-hidden ring-1 ring-ink/10 shadow-xl rotate-[2deg]">
                 <Image
                   src="/images/projects/nybygge-1.jpg"
                   alt="Nybyggnation av fritidshus"
@@ -79,12 +79,21 @@ export default function Home() {
                   className="object-cover"
                 />
               </div>
-              <div className="absolute bottom-0 left-0 w-[58%] h-[52%] rounded-2xl overflow-hidden ring-1 ring-ink/10 shadow-xl -rotate-[3deg] bg-cream">
+              <div className="absolute top-[30%] left-0 w-[52%] h-[42%] rounded-2xl overflow-hidden ring-1 ring-ink/10 shadow-xl -rotate-[3deg] bg-cream">
                 <Image
                   src="/images/projects/attefallshus-1.jpg"
                   alt="Nyckelfärdigt attefallshus"
                   fill
                   sizes="(min-width: 768px) 30vw, 60vw"
+                  className="object-cover"
+                />
+              </div>
+              <div className="absolute bottom-0 right-0 w-[62%] h-[40%] rounded-2xl overflow-hidden ring-4 ring-cream shadow-2xl rotate-[3deg] z-10">
+                <Image
+                  src="/images/bil1.webp"
+                  alt="Gisslaboda Byggs servicebil"
+                  fill
+                  sizes="(min-width: 768px) 32vw, 60vw"
                   className="object-cover"
                 />
               </div>

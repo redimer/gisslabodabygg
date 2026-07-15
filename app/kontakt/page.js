@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
@@ -36,7 +37,24 @@ export default function KontaktPage() {
         </section>
 
         <section className="py-20 px-6 md:px-10">
-          <div className="mx-auto max-w-3xl">
+          <div className="mx-auto max-w-6xl grid md:grid-cols-[0.85fr_1.15fr] gap-12 lg:gap-16 items-start">
+            <div className="md:sticky md:top-28">
+              <div className="relative aspect-[3/4] rounded-3xl overflow-hidden ring-1 ring-ink/10 shadow-2xl">
+                <Image
+                  src="/images/bil2.webp"
+                  alt="Gisslaboda Byggs servicebil"
+                  fill
+                  sizes="(min-width: 768px) 35vw, 90vw"
+                  className="object-cover"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-forest-900/80 via-forest-900/0 to-transparent" />
+                <p className="absolute bottom-6 left-6 right-6 font-display italic text-xl text-white text-balance">
+                  Vi kommer till dig — i Lönsboda med omnejd.
+                </p>
+              </div>
+            </div>
+
             <ContactForm />
           </div>
         </section>
